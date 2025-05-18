@@ -1,4 +1,4 @@
-   use rand::Rng;//Cette ligne importe la bibliotheque du random/This line imports the random library
+use rand::Rng;//Cette ligne importe la bibliotheque du random/This line imports the random library
 use std::io;//Cette ligne importe la bibliotheque du io(Input output)/This line imports the io(Input output) library
 
 fn main(){//Cette ligne cree la fonction main/This line creates the main function
