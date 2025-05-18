@@ -16,9 +16,9 @@ fn main(){//Cette ligne cree la fonction main/This line creates the main functio
             break;//Cette ligne permet de stopper la boucle/This line allows to stop the loop
         } else{//Cette ligne permet d'executer les fonctions qui sont dans le bloc 'else' si la condition 'if input == nb' ne remplie pas tout les criteres/This line allows to execute the functions that are in the 'else' block if the condition 'if input == nb' does not meet all the criteria
             if input > nb{//Cette ligne permet de cree une condition 'if'(si la variable input est superieur a la variable nb alors tout les fonctions dans le bloc 'if' vont etre executee)/This line allows to execute the functions that are in the 'else' block if the condition 'if input == nb' does not meet all the criteria
-                println!("Le nombre est plus petit");//Cette ligne permet d'afficher ce message "Le nombre est plus grand"/This line allows to display this message "The number is smaller"
+                println!("Le nombre est plus petit");//Cette ligne permet d'afficher ce message "Le nombre est plus petit"/This line allows to display this message "The number is smaller"
             } else{//Cette ligne permet d'executer les fonctions qui sont dans le bloc 'else' si la condition 'if input > nb' ne remplie pas tout les criteres/This line allows to execute the functions that are in the 'else' block if the condition 'if input > nb' does not meet all the criteria
-                println!("Le  nombre est plus grand");//Cette ligne permet d'afficher ce message "Le nombre est plus petit"/This line allows to display this message "The number is bigger"
+                println!("Le  nombre est plus grand");//Cette ligne permet d'afficher ce message "Le nombre est plus grand"/This line allows to display this message "The number is bigger"
             }
         }
     }
